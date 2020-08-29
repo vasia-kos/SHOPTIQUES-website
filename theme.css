@@ -1,0 +1,633 @@
+@media only screen and (min-width: 1366px) {
+	body{
+		font-family:"arial";
+		display:flex-box;
+		margin:0;
+		 
+	}
+
+	.color-text{
+		color:grey;
+		font-size:10pt;
+
+	}
+
+	.pages{
+		display:flex-box;
+		width:100%;
+	}
+	
+	#nav{
+		display:flex;
+		flex-direction: row;
+		width:100%;
+	}
+
+	#title{
+		height:20px;
+		width:150px;	 
+	}
+	#logo{ 
+		height:40px;
+		width:130px;
+		margin-left: auto;
+	}
+
+	#signInButton{
+		display: inline-block;
+		margin-left:auto;
+		background:white;
+		color:pink;
+		border-radius:5px;
+		border:0;
+		font-size:8pt;
+		content: "\f023";  
+		font-family: FontAwesome;			
+	}
+	#page1{
+		background:url(pc.png); 
+		display:flex-box;
+		width:100%;
+	 
+	}	
+	
+	.button1{
+		border-radius: 5px;
+		background-color:#1259cc;
+		border: 2px solid #1259cc;
+		color: white;
+		padding: 10px;
+		text-align: center;
+		display: inline-block;
+		font-size: 10px;
+	 }
+	#p1r1{
+		padding:40px;
+		display:flex;
+		flex-direction: row;
+		width:100%;
+		justify-content:center; 
+		 
+	}
+	#im1{
+		height:380px;
+	}
+	#p1r2{
+		display:flex;
+		flex-direction: row;
+		width:100%;
+		align-items: center;
+		justify-content:center; 
+		padding:30px;
+		
+		
+	}	
+		
+	.column {
+		max-width:250px;
+		
+		align-items: center;
+		text-align: center;
+		display:flex-box;	
+	}
+	#page2{
+		justify-content:center;
+		align-items:center;
+		 
+	}
+	#p2c1{
+		justify-content:center;
+		display:flex;
+		flex-direction: row;
+		width:100%;
+	
+		 
+		 
+	}
+	#pss{
+		text-align:left;
+		display:flex;
+		flex-direction: column;
+		 
+		width:400px; 
+		 
+		margin-top:40px;
+		 
+	}
+	#tabletImage{
+		margin-top:40px;
+	}
+	#tabIcon{
+	 
+		border-radius:50%;
+		margin-top:40px;
+		height:50px;
+		width:50px;
+	}
+	#p2c2{
+		width:200px;
+		margin-bottom:50px;
+		justify-content:center;
+		margin-right:50px;
+		display:flex;
+		flex-direction: row;
+		width:100%;
+	} 
+	#im2{
+			height:380px;
+	}
+	#botProf{
+		margin-left:80px;
+		margin-top:30px;
+		height:150px;
+		 
+	}
+	#botIcon{ 
+		display:flex;	
+		width:20%;	
+	}
+	#quotes{
+		overflow:hidden;
+		width:600px;
+		justify-content:center;
+		
+	}
+	
+	
+#horizontal1,#horizontal2{
+	display:flex;
+	width:100%;	
+}
+
+.h1, .h2 {	
+  	float: left;
+  	display:flex-box;	
+}
+ 
+
+#page3{
+	margin-top:200px;
+	width:100%;
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	height: 100%;
+	background: #dcc3e5;
+}
+
+#form{
+	display:flex;
+	flex-direction: row;
+	width:100%;  
+	margin-left:250px;
+}
+
+.formInputs{
+	border:solid lightgrey 1px;
+	height:30px;
+}
+
+#pictures{
+	margin-right:50px;
+	margin-bottom:100px;
+	
+	
+
+}
+
+#pics{
+	
+	height:600px;
+	float: right;
+	margin-top:-70px;
+}
+
+.border{
+	border:solid lightgrey 1px;
+	height:30px;
+}
+
+.width1{
+	width:350px;
+}
+
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  body{font-family:arial;}
+    
+  	#page1{
+  		background:url(tablet.png);
+  	}
+
+  	.color-text{
+		color:grey;
+		font-size:10pt;
+
+	}
+
+	#nav{
+		display:flex;
+		flex-direction: row;
+		width:100%;
+	}
+
+	#title{
+		height:20px;
+		width:150px;	 
+	}
+	#logo{ 
+		display:none;
+	}
+	#signInButton{
+	 
+		margin-left:auto;
+		background:white;
+		color:pink;
+		border-radius:5px;
+		border:0;
+		font-size:8pt;
+		content: "\f023";  
+		font-family: FontAwesome;			
+	}
+	.pages{
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		width:100%;
+	}
+	#p1r1{
+	 
+		display:flex;
+		flex-direction: column;
+	 
+		justify-content:center; 
+		align-items:center;	
+		 
+	}
+	.button1{
+		border-radius: 5px;
+		background-color:#1259cc;
+		border: 2px solid #1259cc;
+		color: white;
+		padding: 10px;
+		text-align: center;
+		display: inline-block;
+		font-size: 10px;
+	 }
+	#photos{
+		display:flex;
+		flex-direction: column;
+		
+		justify-content:center; 
+		align-items:center;	
+		 
+	}
+	#im1{
+		height:240px;
+		
+	}
+	#p1r2{
+		display:flex-box;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+	}
+	.column{
+		align-items:center;
+		text-align:center;
+		margin-top:60px;
+		
+	 
+	}
+	/*------------------------------------------------*/
+	
+	#page2{
+		margin-top:120px;
+		justify-content: space-between;
+	}
+	
+	.p1{
+	display:none;
+	}
+	
+	#p2c1{
+		display:flex-box;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		
+	}
+	
+	#pss{
+	display:flex;
+	flex-direction:column;
+	
+	}
+	
+	
+	#p2c2{
+	display:flex-box;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:300px;
+	}
+	
+	#botProf{
+		margin-left:80px;
+		margin-top:30px;
+		height:150px;
+		 
+	}
+	#botIcon{ 
+		display:flex;	
+		width:20%;	
+	}
+	
+	#tabletImage{
+	 
+	display:flex;
+	width:100%;
+ 
+ 
+	 
+	}
+	
+	#im2{
+	height:400px;
+	
+	width:100%;
+	}
+/*------------------------------------------------*/
+	
+	#page3{
+		margin-top:100px;
+		display:flex-box;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		background: #dcc3e5;
+	}
+	
+	#pictures{
+		display:none;
+	}
+	
+	#horizontal1,#horizontal2{
+	display:flex;
+	width:100%;	
+}
+
+.h1, .h2 {	
+  	float: left;
+  	display:flex-box;	
+}
+	
+	#form{
+	 
+	display:flex-box;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+.formInputs{
+	border:solid lightgrey 1px;
+	height:30px;
+}
+
+.border{
+	border:solid lightgrey 1px;
+	height:30px;
+}
+
+.width1{
+	width:350px;
+}
+
+
+	
+	
+ }
+
+ 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	
+	body{font-family:arial;}
+	
+	#logo{ 
+		height:40px;
+		width:130px;
+		margin-left: auto;
+	}
+
+	.color-text{
+		color:grey;
+		font-size:10pt;
+
+	}
+  
+	#nav{
+		display:flex;
+		flex-direction: row;
+		width:100%;
+	}
+
+	#title{
+		height:20px;
+		width:150px;	 
+	}
+	
+	#signInButton{
+	 
+		margin-left:auto;
+		background:white;
+		color:pink;
+		border-radius:5px;
+		border:0;
+		font-size:8pt;
+		content: "\f023";  
+		font-family: FontAwesome;			
+	}
+	.pages{
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		width:100%;
+	}
+	#p1r1{
+	 
+		display:flex;
+		flex-direction: column;
+	 
+		justify-content:center; 
+		align-items:center;	
+		 
+	}
+	.button1{
+		border-radius: 5px;
+		background-color:#1259cc;
+		border: 2px solid #1259cc;
+		color: white;
+		padding: 10px;
+		text-align: center;
+		display: inline-block;
+		font-size: 10px;
+	 }
+	#photos{
+		display:flex;
+		flex-direction: column;
+		
+		justify-content:center; 
+		align-items:center;	
+		 
+	}
+	#im1{
+		height:440px;
+		
+	}
+	#p1r2{
+		display:flex;
+ 		width:100%;
+		display: flex;
+		flex-flow: row wrap;
+		align-content: space-between;
+		justify-content: space-between;
+	}
+	.column{ 
+	
+		align-items:center;
+		text-align:center;
+		margin-top:60px;
+	 	width:45%;
+		 
+		padding:10px;
+	 
+	}
+	/*------------------------------------------------*/
+	
+	#page2{
+		margin-top:120px;
+		justify-content: space-between;
+	}
+	
+	.p1{
+	display:none;
+	}
+	
+	#p2c1{
+		display:flex-box;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		
+	}
+	
+	#pss{
+	display:flex;
+	flex-direction:column;
+	
+	}
+	
+	
+	#p2c2{
+	display:flex-box;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:600px;
+	}
+	
+	#botProf{
+		margin-left:80px;
+		margin-top:30px;
+		height:150px;
+		 
+	}
+	#botIcon{ 
+		display:flex;	
+		width:20%;	
+	}
+	
+	#tabletImage{
+	 
+	display:flex;
+	width:100%;
+ 
+ 
+	 
+	}
+	
+	#im2{
+	height:400px;
+	
+	width:100%;
+	}
+/*------------------------------------------------*/
+	
+	#page3{
+		margin-top:100px;
+		display:flex-box;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		background: #dcc3e5;
+	}
+	
+	
+	
+	#horizontal1,#horizontal2{
+	display:flex;
+	width:100%;	
+}
+
+.h1, .h2 {	
+  	float: left;
+  	display:flex-box;	
+}
+	
+	#form{
+	 
+	display:flex-box;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+.formInputs{
+	border:solid lightgrey 1px;
+	height:30px;
+}
+
+.border{
+	border:solid lightgrey 1px;
+	height:30px;
+}
+
+.width1{
+	width:350px;
+}
+
+#pictures{
+	margin-bottom:250px;
+	height:100px;
+}
+
+#pics{
+	height:400px;
+}
+
+#page3{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+}
+	
+	
+	
+}
